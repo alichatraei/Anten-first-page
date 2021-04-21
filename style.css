@@ -20,6 +20,9 @@ header {
   width: 100%;
   min-height: 10vh;
   background-color: rgb(38, 38, 38);
+  position: sticky;
+  z-index: 10;
+  top: 0;
 }
 /* LI */
 ul li {
@@ -34,4 +37,46 @@ ul li {
   background-color: rgba(240, 40, 103, 0.2);
   border: 0.1rem solid rgb(240, 40, 103);
   color: white;
+}
+/* Slider Section */
+main {
+  background-color: #1c1c1c;
+}
+.slider {
+  background-color: rgb(16, 16, 16);
+}
+#reload {
+  padding: 0.5rem 1rem;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  font-size: small;
+}
+/* DATES */
+.dates h6 {
+  color: rgb(119, 119, 119);
+  font-size: 0.8rem;
+}
+.dates {
+  position: relative;
+}
+#time {
+  background-color: #262626;
+  height: 13vh;
+  width: 100%;
+  border-radius: 1rem;
+}
+.program {
+  background-color: #262626;
+  border-radius: 1rem;
+}
+#thumbnail {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+@media screen and (max-width: 989px) {
+  html {
+    font-size: 70%;
+  }
 }
