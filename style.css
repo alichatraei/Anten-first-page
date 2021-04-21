@@ -19,10 +19,19 @@ body {
 header {
   width: 100%;
   min-height: 10vh;
-  background-color: #262626;
+  background-color: rgb(38, 38, 38);
 }
 /* LI */
 ul li {
   list-style: none;
   margin: 1rem 0;
+}
+/* LOGIN  */
+.login button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5rem;
+  background-color: rgba(240, 40, 103, 0.2);
+  border: 0.1rem solid rgb(240, 40, 103);
+  color: white;
 }
