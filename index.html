@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آنتن</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="d-flex justify-content-center align-items-center">
+      <div class="container-fluid container-xl text-white">
+        <!-- ROW -->
+        <div class="row align-items-center justify-content-between g-0">
+          <!-- LOGO -->
+          <div class="col-md-4 col-xl-3 col-sm-10 col-9 col-lg-6">
+            <figure class="d-flex align-items-center m-0">
+              <img src="./assets/logo.svg" class="w-25" alt="Logo" />
+            </figure>
+          </div>
+          <!-- LOGIN IN MOBILE -->
+          <div class="col-1 d-block d-sm-none d-flex align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="#fff"
+                d="M16.0591924,13.2653481 L17.5101592,14.7163149 C17.7572871,14.9634428 17.7572871,15.3641162 17.5101592,15.6112441 C17.2630314,15.8583719 16.8623579,15.8583719 16.6152301,15.6112441 L14.1153925,13.1114065 C14.061358,13.063858 14.016211,13.0074956 13.9812767,12.9455185 C13.9567813,12.9025174 13.9377318,12.8572569 13.9241283,12.8107417 C13.8626411,12.603831 13.9035849,12.3654764 14.0839882,12.1850731 L16.6152301,9.65383119 C16.8623579,9.40670333 17.2630314,9.40670333 17.5101592,9.65383119 C17.7572871,9.90095905 17.7572871,10.3016325 17.5101592,10.5487603 L16.0591924,11.9997272 L21.4923679,11.9997272 C21.8418595,11.9997272 22.1251784,12.2830461 22.1251784,12.6325376 C22.1251784,12.9820292 21.8418595,13.2653481 21.4923679,13.2653481 L16.0591924,13.2653481 Z M18.3283156,17.6958651 C18.3283156,17.3463735 18.6116345,17.0630546 18.961126,17.0630546 C19.3106176,17.0630546 19.5939365,17.3463735 19.5939365,17.6958651 L19.5939365,18.961486 C19.5939365,20.010218 18.7438457,20.8599174 17.6955051,20.8599174 L13.8986423,20.8599174 C13.5491508,20.8599174 13.2658319,20.5765985 13.2658319,20.2271069 C13.2658319,19.8776154 13.5491508,19.5942965 13.8986423,19.5942965 L17.6955051,19.5942965 C18.044993,19.5942965 18.3283156,19.3111043 18.3283156,18.961486 L18.3283156,17.6958651 Z M13.8986423,5.67246626 C13.5491508,5.67246626 13.2658319,5.38914736 13.2658319,5.03965579 C13.2658319,4.69016423 13.5491508,4.40684533 13.8986423,4.40684533 L17.6955051,4.40684533 C18.7436194,4.40684533 19.5939365,5.2571624 19.5939365,6.30527672 L19.5939365,7.57089765 C19.5939365,7.92038922 19.3106176,8.20370812 18.961126,8.20370812 C18.6116345,8.20370812 18.3283156,7.92038922 18.3283156,7.57089765 L18.3283156,6.30527672 C18.3283156,5.95614554 18.0446363,5.67246626 17.6955051,5.67246626 L13.8986423,5.67246626 Z M3.14068891,5.01436083 L3.14044256,19.7746053 L10.7342433,20.8592772 L10.7342433,3.14097128 L3.14068891,5.01436083 Z M2.9627013,21.0272848 C2.3389374,20.9393832 1.87482163,20.4045642 1.87482163,19.7746053 L1.87482163,5.014934 C1.87482163,4.41812425 2.29223555,3.90194057 2.85635908,3.78124419 L10.4706316,1.90257256 C10.8439651,1.82353349 11.2329798,1.91626374 11.5314625,2.1570898 C11.8278894,2.39793667 11.9997891,2.758926 11.9997891,3.14097128 L11.9997891,20.8596643 C11.9997891,21.226334 11.840754,21.5755785 11.5651762,21.8141836 C11.2879153,22.0559416 10.9193749,22.1643689 10.5550582,22.1121495 L2.9627013,21.0272848 Z M8.51975338,11.0479802 C8.77033302,11.0479802 9.01010597,11.1462805 9.19481691,11.3284792 C9.37066881,11.5068433 9.46896908,11.7466163 9.46891431,11.9888702 C9.47399425,12.3749461 9.24390847,12.7251079 8.89221674,12.8733083 C8.5377064,13.0252413 8.12841232,12.9471099 7.85162558,12.6753924 C7.57880372,12.4050966 7.49686332,11.9975322 7.64234735,11.637713 C7.77456952,11.318556 8.06840319,11.0988424 8.4060265,11.0581717 C8.44292037,11.0514766 8.48092856,11.0479802 8.51975338,11.0479802 Z"
+              ></path>
+            </svg>
+          </div>
+          <!-- NAVBAR -->
+          <div class="col-md-4 col-xl-3 col-lg-6 d-none d-lg-block">
+            <nav class="row align-items-center justify-content-center">
+              <ul
+                class="d-flex align-items-center justify-content-between m-0 p-0"
+              >
+                <li class="nav-item">
+                  <a href="#" class="text-white p-0 nav-link active"
+                    >برنامه ها</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="text-white p-0 nav-link">تلویزیون</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="text-white p-0 nav-link">آرشیو</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- OFFCANVAS MENU -->
+          <div
+            class="col-md-4 d-lg-none d-xxl-none d-sm-block d-md-none col-xl-3 col-sm-2 col-1"
+          >
+            <div class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#fff"
+                  d="M2.59821429,18.5089286 C2.19879406,18.5089286 1.875,18.1851345 1.875,17.7857143 C1.875,17.3862941 2.19879406,17.0625 2.59821429,17.0625 L21.4017857,17.0625 C21.8012059,17.0625 22.125,17.3862941 22.125,17.7857143 C22.125,18.1851345 21.8012059,18.5089286 21.4017857,18.5089286 L2.59821429,18.5089286 Z M2.59821429,12.7232143 C2.19879406,12.7232143 1.875,12.3994202 1.875,12 C1.875,11.6005798 2.19879406,11.2767857 2.59821429,11.2767857 L21.4017857,11.2767857 C21.8012059,11.2767857 22.125,11.6005798 22.125,12 C22.125,12.3994202 21.8012059,12.7232143 21.4017857,12.7232143 L2.59821429,12.7232143 Z M2.59821429,6.9375 C2.19879406,6.9375 1.875,6.61370594 1.875,6.21428571 C1.875,5.81486549 2.19879406,5.49107143 2.59821429,5.49107143 L21.4017857,5.49107143 C21.8012059,5.49107143 22.125,5.81486549 22.125,6.21428571 C22.125,6.61370594 21.8012059,6.9375 21.4017857,6.9375 L2.59821429,6.9375 Z"
+                ></path>
+              </svg>
+
+              <div
+                class="offcanvas offcanvas-end bg-dark"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+              >
+                <div class="offcanvas-header">
+                  <img
+                    src="./assets/logo.svg"
+                    class="w-50"
+                    id="offcanvasRightLabel"
+                  />
+                  <button
+                    type="button"
+                    class="btn-close bg-light text-left m-0"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul>
+                    <li>برنامه ها</li>
+                    <li>آرشیو</li>
+                    <li>مسابقات</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- LOGIN BUTTON -->
+          <div class="col-m-4 col-xl-3"></div>
+        </div>
+      </div>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

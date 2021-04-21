@@ -1,0 +1,28 @@
+@font-face {
+  font-family: iranyekan;
+  src: url("./iranyekan-regular.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iranyekan;
+}
+
+/* header */
+header {
+  width: 100%;
+  min-height: 10vh;
+  background-color: #262626;
+}
+/* LI */
+ul li {
+  list-style: none;
+  margin: 1rem 0;
+}
